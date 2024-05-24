@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project [
+        <!ELEMENT project (component)*>
+        <!ATTLIST project
+                version CDATA #REQUIRED>
+        <!ELEMENT component (modules)*>
+        <!ATTLIST component
+                name CDATA #REQUIRED>
+        <!ELEMENT modules (module)*>
+        <!ELEMENT module (#PCDATA)>
+        <!ATTLIST module
+                fileurl CDATA #REQUIRED
+                filepath CDATA #REQUIRED>
+        ]>
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
