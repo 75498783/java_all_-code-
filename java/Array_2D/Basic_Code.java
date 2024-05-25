@@ -1,6 +1,6 @@
 package Array_2D;
 
-public class basicCode {
+public class Basic_Code{
     public static void main(String[] args) {
         int [][] grid =   new int[3][3];
         // 10,20,30
@@ -8,7 +8,7 @@ public class basicCode {
         //70,80,90
         grid[0][0]=10;
         grid[0][1]=20;
-        grid[0][3]=30;
+        grid[0][2]=30;
         System.out.println(grid[2][2]);
 
     }
